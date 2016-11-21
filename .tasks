@@ -15,3 +15,8 @@ $ git remote -v
 $ git fetch origin
 $ git commit -a -m '.tasks change'
 $ git push origin master
+
+//checking//
+
+$ git status
+$ git push
