@@ -9,6 +9,9 @@ $ git config user.name ""
 $ git remote add origin https://github.com/cyriluy/handlebars.git
 $ git push -u origin master
 
+//changes//
 $ git add .tasks
-$ git commit -m "adding .tasks"
-$ git push
+$ git remote -v
+$ git fetch origin
+$ git commit -a -m '.tasks change'
+$ git push origin master
